@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Myft Stickers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>myft.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>849536381E6B2C200099FC4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>84A8B6351E43D740005FDFBB</key>
 		<dict>
 			<key>primary</key>

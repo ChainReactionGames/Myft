@@ -16,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+
+        let defaults = UserDefaults.standard
+        let prefs = Bundle.main.path(forResource: "Defaults", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: prefs!)
+        defaults.set(dict, forKey: "defaults")
+        defaults.register(defaults: dict as! [String : AnyObject])
+        defaults.synchronize()
+                return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

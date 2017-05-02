@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +19,38 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QpA-Wu-w2x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v2g-0O-rMy">
+                                        <rect key="frame" x="50" y="100" width="275" height="467"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="v2g-0O-rMy" firstAttribute="leading" secondItem="QpA-Wu-w2x" secondAttribute="leading" constant="50" id="3u0-FA-bkY"/>
+                                    <constraint firstAttribute="bottom" secondItem="v2g-0O-rMy" secondAttribute="bottom" constant="100" id="L8D-q3-ipU"/>
+                                    <constraint firstItem="v2g-0O-rMy" firstAttribute="top" secondItem="QpA-Wu-w2x" secondAttribute="top" constant="100" id="hMN-Lg-KQE"/>
+                                    <constraint firstAttribute="trailing" secondItem="v2g-0O-rMy" secondAttribute="trailing" constant="50" id="tfP-b1-nrq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QpA-Wu-w2x" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MUz-Kf-pcw"/>
+                            <constraint firstItem="QpA-Wu-w2x" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="VQ8-4t-7IV"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QpA-Wu-w2x" secondAttribute="bottom" id="gCq-et-Elm"/>
+                            <constraint firstAttribute="trailing" secondItem="QpA-Wu-w2x" secondAttribute="trailing" id="skr-Uy-AGH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="redLogo" width="332" height="168"/>
+    </resources>
 </document>

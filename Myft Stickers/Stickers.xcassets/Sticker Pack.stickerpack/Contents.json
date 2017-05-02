@@ -1,0 +1,86 @@
+{
+  "stickers" : [
+    {
+      "filename" : "explodes.sticker"
+    },
+    {
+      "filename" : "madTrump.sticker"
+    },
+    {
+      "filename" : "happyTrump.sticker"
+    },
+    {
+      "filename" : "trumpApproves.sticker"
+    },
+    {
+      "filename" : "bottle.sticker"
+    },
+    {
+      "filename" : "whale.sticker"
+    },
+    {
+      "filename" : "kraken.sticker"
+    },
+    {
+      "filename" : "kraken2.sticker"
+    },
+    {
+      "filename" : "whale2.sticker"
+    },
+    {
+      "filename" : "city.sticker"
+    },
+    {
+      "filename" : "zilla.sticker"
+    },
+    {
+      "filename" : "tallTale.sticker"
+    },
+    {
+      "filename" : "zillaLeg.sticker"
+    },
+    {
+      "filename" : "kong2.sticker"
+    },
+    {
+      "filename" : "kong.sticker"
+    },
+    {
+      "filename" : "kong3.sticker"
+    },
+    {
+      "filename" : "piano.sticker"
+    },
+    {
+      "filename" : "piano2.sticker"
+    },
+    {
+      "filename" : "dont.sticker"
+    },
+    {
+      "filename" : "hashtagMyftIt.sticker"
+    },
+    {
+      "filename" : "btnMyftIt2.sticker"
+    },
+    {
+      "filename" : "btnMyftIt.sticker"
+    },
+    {
+      "filename" : "logo.sticker"
+    },
+    {
+      "filename" : "Myft face.sticker"
+    },
+    {
+      "filename" : "Myft Icon.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

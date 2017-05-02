@@ -7,16 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849245491E46300200EAB152 /* Nilland-SmallCaps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849245481E46300200EAB152 /* Nilland-SmallCaps.ttf */; };
+		8492454E1E4636DE00EAB152 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492454D1E4636DE00EAB152 /* AdSupport.framework */; };
+		849245501E4636E500EAB152 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492454F1E4636E500EAB152 /* AudioToolbox.framework */; };
+		849245521E4636EC00EAB152 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849245511E4636EC00EAB152 /* AVFoundation.framework */; };
+		849245541E4636F600EAB152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849245531E4636F600EAB152 /* CoreGraphics.framework */; };
+		849245561E46370000EAB152 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849245551E46370000EAB152 /* CoreTelephony.framework */; };
+		849245591E46370900EAB152 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849245571E46370900EAB152 /* EventKit.framework */; };
+		8492455A1E46370900EAB152 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849245581E46370900EAB152 /* EventKitUI.framework */; };
+		8492455C1E46371100EAB152 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492455B1E46371100EAB152 /* MessageUI.framework */; };
+		8492455E1E46371700EAB152 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492455D1E46371700EAB152 /* StoreKit.framework */; };
+		849245601E46371E00EAB152 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492455F1E46371E00EAB152 /* SystemConfiguration.framework */; };
+		8492456D1E463CFD00EAB152 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8492456C1E463CFC00EAB152 /* GoogleMobileAds.framework */; };
+		8492456F1E463E8E00EAB152 /* TypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492456E1E463E8E00EAB152 /* TypeVC.swift */; };
+		8495363C1E6B2C210099FC4C /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495363B1E6B2C210099FC4C /* Stickers.xcassets */; };
+		849536401E6B2C210099FC4C /* Myft Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 849536391E6B2C200099FC4C /* Myft Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		849536461E6B35990099FC4C /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849536451E6B35990099FC4C /* Defaults.plist */; };
 		84A8B63A1E43D740005FDFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B6391E43D740005FDFBB /* AppDelegate.swift */; };
-		84A8B63C1E43D740005FDFBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B63B1E43D740005FDFBB /* ViewController.swift */; };
+		84A8B63C1E43D740005FDFBB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B63B1E43D740005FDFBB /* MainVC.swift */; };
 		84A8B63F1E43D740005FDFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B63D1E43D740005FDFBB /* Main.storyboard */; };
 		84A8B6411E43D740005FDFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B6401E43D740005FDFBB /* Assets.xcassets */; };
 		84A8B6441E43D740005FDFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8B6421E43D740005FDFBB /* LaunchScreen.storyboard */; };
 		84A8B64F1E43D741005FDFBB /* myftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B64E1E43D741005FDFBB /* myftTests.swift */; };
 		84A8B65A1E43D741005FDFBB /* myftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8B6591E43D741005FDFBB /* myftUITests.swift */; };
+		84AB46D21E4E74F200387178 /* WhaleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB46D11E4E74F200387178 /* WhaleVC.swift */; };
+		84AB46D41E4E7D9000387178 /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB46D31E4E7D9000387178 /* GreenVC.swift */; };
+		84B4253C1E5B4024006093CE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B4253B1E5B4024006093CE /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8495363E1E6B2C210099FC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A8B62E1E43D740005FDFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849536381E6B2C200099FC4C;
+			remoteInfo = "Myft Stickers";
+		};
 		84A8B64B1E43D741005FDFBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84A8B62E1E43D740005FDFBB /* Project object */;
@@ -33,10 +59,44 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		849536441E6B2C210099FC4C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				849536401E6B2C210099FC4C /* Myft Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		849245481E46300200EAB152 /* Nilland-SmallCaps.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nilland-SmallCaps.ttf"; sourceTree = "<group>"; };
+		8492454B1E4636BB00EAB152 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.17.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		8492454D1E4636DE00EAB152 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8492454F1E4636E500EAB152 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		849245511E4636EC00EAB152 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		849245531E4636F600EAB152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		849245551E46370000EAB152 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		849245571E46370900EAB152 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		849245581E46370900EAB152 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		8492455B1E46371100EAB152 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8492455D1E46371700EAB152 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8492455F1E46371E00EAB152 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		849245611E46379A00EAB152 /* GoogleMobileAdsSdkiOS-7.17.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoogleMobileAdsSdkiOS-7.17.0"; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.17.0"; sourceTree = "<group>"; };
+		849245631E4637B000EAB152 /* GoogleMobileAdsSdkiOS-7.17.0.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "GoogleMobileAdsSdkiOS-7.17.0.zip"; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.17.0.zip"; sourceTree = "<group>"; };
+		8492456C1E463CFC00EAB152 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		8492456E1E463E8E00EAB152 /* TypeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeVC.swift; sourceTree = "<group>"; };
+		849536391E6B2C200099FC4C /* Myft Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Myft Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495363B1E6B2C210099FC4C /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		8495363D1E6B2C210099FC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849536451E6B35990099FC4C /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
 		84A8B6361E43D740005FDFBB /* myft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8B6391E43D740005FDFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84A8B63B1E43D740005FDFBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A8B63B1E43D740005FDFBB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		84A8B63E1E43D740005FDFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A8B6401E43D740005FDFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A8B6431E43D740005FDFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +107,9 @@
 		84A8B6551E43D741005FDFBB /* myftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8B6591E43D741005FDFBB /* myftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myftUITests.swift; sourceTree = "<group>"; };
 		84A8B65B1E43D741005FDFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AB46D11E4E74F200387178 /* WhaleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhaleVC.swift; sourceTree = "<group>"; };
+		84AB46D31E4E7D9000387178 /* GreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		84B4253B1E5B4024006093CE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +117,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849245601E46371E00EAB152 /* SystemConfiguration.framework in Frameworks */,
+				8492455E1E46371700EAB152 /* StoreKit.framework in Frameworks */,
+				8492455C1E46371100EAB152 /* MessageUI.framework in Frameworks */,
+				84B4253C1E5B4024006093CE /* GameKit.framework in Frameworks */,
+				8492456D1E463CFD00EAB152 /* GoogleMobileAds.framework in Frameworks */,
+				849245591E46370900EAB152 /* EventKit.framework in Frameworks */,
+				8492455A1E46370900EAB152 /* EventKitUI.framework in Frameworks */,
+				849245561E46370000EAB152 /* CoreTelephony.framework in Frameworks */,
+				849245541E4636F600EAB152 /* CoreGraphics.framework in Frameworks */,
+				849245521E4636EC00EAB152 /* AVFoundation.framework in Frameworks */,
+				849245501E4636E500EAB152 /* AudioToolbox.framework in Frameworks */,
+				8492454E1E4636DE00EAB152 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +149,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8492454A1E4636BB00EAB152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B4253B1E5B4024006093CE /* GameKit.framework */,
+				849245631E4637B000EAB152 /* GoogleMobileAdsSdkiOS-7.17.0.zip */,
+				849245611E46379A00EAB152 /* GoogleMobileAdsSdkiOS-7.17.0 */,
+				8492455F1E46371E00EAB152 /* SystemConfiguration.framework */,
+				8492455D1E46371700EAB152 /* StoreKit.framework */,
+				8492455B1E46371100EAB152 /* MessageUI.framework */,
+				849245571E46370900EAB152 /* EventKit.framework */,
+				849245581E46370900EAB152 /* EventKitUI.framework */,
+				849245551E46370000EAB152 /* CoreTelephony.framework */,
+				849245531E4636F600EAB152 /* CoreGraphics.framework */,
+				849245511E4636EC00EAB152 /* AVFoundation.framework */,
+				8492454F1E4636E500EAB152 /* AudioToolbox.framework */,
+				8492454D1E4636DE00EAB152 /* AdSupport.framework */,
+				8492454B1E4636BB00EAB152 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8495363A1E6B2C200099FC4C /* Myft Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				8495363B1E6B2C210099FC4C /* Stickers.xcassets */,
+				8495363D1E6B2C210099FC4C /* Info.plist */,
+			);
+			path = "Myft Stickers";
+			sourceTree = "<group>";
+		};
 		84A8B62D1E43D740005FDFBB = {
 			isa = PBXGroup;
 			children = (
+				8492456C1E463CFC00EAB152 /* GoogleMobileAds.framework */,
 				84A8B6381E43D740005FDFBB /* myft */,
 				84A8B64D1E43D741005FDFBB /* myftTests */,
 				84A8B6581E43D741005FDFBB /* myftUITests */,
+				8495363A1E6B2C200099FC4C /* Myft Stickers */,
 				84A8B6371E43D740005FDFBB /* Products */,
+				8492454A1E4636BB00EAB152 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +198,7 @@
 				84A8B6361E43D740005FDFBB /* myft.app */,
 				84A8B64A1E43D741005FDFBB /* myftTests.xctest */,
 				84A8B6551E43D741005FDFBB /* myftUITests.xctest */,
+				849536391E6B2C200099FC4C /* Myft Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,11 +206,16 @@
 		84A8B6381E43D740005FDFBB /* myft */ = {
 			isa = PBXGroup;
 			children = (
+				849245481E46300200EAB152 /* Nilland-SmallCaps.ttf */,
 				84A8B6391E43D740005FDFBB /* AppDelegate.swift */,
-				84A8B63B1E43D740005FDFBB /* ViewController.swift */,
+				84A8B63B1E43D740005FDFBB /* MainVC.swift */,
+				8492456E1E463E8E00EAB152 /* TypeVC.swift */,
+				84AB46D11E4E74F200387178 /* WhaleVC.swift */,
+				84AB46D31E4E7D9000387178 /* GreenVC.swift */,
 				84A8B63D1E43D740005FDFBB /* Main.storyboard */,
 				84A8B6401E43D740005FDFBB /* Assets.xcassets */,
 				84A8B6421E43D740005FDFBB /* LaunchScreen.storyboard */,
+				849536451E6B35990099FC4C /* Defaults.plist */,
 				84A8B6451E43D740005FDFBB /* Info.plist */,
 			);
 			path = myft;
@@ -128,6 +242,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		849536381E6B2C200099FC4C /* Myft Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849536431E6B2C210099FC4C /* Build configuration list for PBXNativeTarget "Myft Stickers" */;
+			buildPhases = (
+				849536371E6B2C200099FC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myft Stickers";
+			productName = "Myft Stickers";
+			productReference = 849536391E6B2C200099FC4C /* Myft Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		84A8B6351E43D740005FDFBB /* myft */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A8B65E1E43D741005FDFBB /* Build configuration list for PBXNativeTarget "myft" */;
@@ -135,10 +264,12 @@
 				84A8B6321E43D740005FDFBB /* Sources */,
 				84A8B6331E43D740005FDFBB /* Frameworks */,
 				84A8B6341E43D740005FDFBB /* Resources */,
+				849536441E6B2C210099FC4C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8495363F1E6B2C210099FC4C /* PBXTargetDependency */,
 			);
 			name = myft;
 			productName = myft;
@@ -191,10 +322,23 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Chain Reaction Games";
 				TargetAttributes = {
+					849536381E6B2C200099FC4C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GCVX8L34UD;
+						ProvisioningStyle = Automatic;
+					};
 					84A8B6351E43D740005FDFBB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GCVX8L34UD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
 					84A8B6491E43D741005FDFBB = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -226,16 +370,27 @@
 				84A8B6351E43D740005FDFBB /* myft */,
 				84A8B6491E43D741005FDFBB /* myftTests */,
 				84A8B6541E43D741005FDFBB /* myftUITests */,
+				849536381E6B2C200099FC4C /* Myft Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		849536371E6B2C200099FC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495363C1E6B2C210099FC4C /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84A8B6341E43D740005FDFBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849245491E46300200EAB152 /* Nilland-SmallCaps.ttf in Resources */,
 				84A8B6441E43D740005FDFBB /* LaunchScreen.storyboard in Resources */,
+				849536461E6B35990099FC4C /* Defaults.plist in Resources */,
 				84A8B6411E43D740005FDFBB /* Assets.xcassets in Resources */,
 				84A8B63F1E43D740005FDFBB /* Main.storyboard in Resources */,
 			);
@@ -262,7 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A8B63C1E43D740005FDFBB /* ViewController.swift in Sources */,
+				84AB46D41E4E7D9000387178 /* GreenVC.swift in Sources */,
+				84A8B63C1E43D740005FDFBB /* MainVC.swift in Sources */,
+				8492456F1E463E8E00EAB152 /* TypeVC.swift in Sources */,
+				84AB46D21E4E74F200387178 /* WhaleVC.swift in Sources */,
 				84A8B63A1E43D740005FDFBB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +444,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8495363F1E6B2C210099FC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849536381E6B2C200099FC4C /* Myft Stickers */;
+			targetProxy = 8495363E1E6B2C210099FC4C /* PBXContainerItemProxy */;
+		};
 		84A8B64C1E43D741005FDFBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 84A8B6351E43D740005FDFBB /* myft */;
@@ -318,6 +481,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		849536411E6B2C210099FC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = GCVX8L34UD;
+				INFOPLIST_FILE = "Myft Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crg.myft.Myft-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		849536421E6B2C210099FC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = GCVX8L34UD;
+				INFOPLIST_FILE = "Myft Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crg.myft.Myft-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		84A8B65C1E43D741005FDFBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -416,11 +603,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GCVX8L34UD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = myft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crg.myft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -429,11 +622,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GCVX8L34UD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = myft/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crg.myft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +697,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		849536431E6B2C210099FC4C /* Build configuration list for PBXNativeTarget "Myft Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849536411E6B2C210099FC4C /* Debug */,
+				849536421E6B2C210099FC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		84A8B6311E43D740005FDFBB /* Build configuration list for PBXProject "myft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -514,6 +722,7 @@
 				84A8B6601E43D741005FDFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A8B6611E43D741005FDFBB /* Build configuration list for PBXNativeTarget "myftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +731,7 @@
 				84A8B6631E43D741005FDFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A8B6641E43D741005FDFBB /* Build configuration list for PBXNativeTarget "myftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +740,7 @@
 				84A8B6661E43D741005FDFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
